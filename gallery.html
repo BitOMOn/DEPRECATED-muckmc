@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muck mc - Home</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="icon" type="image/x-icon" href="favicon.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+	<div class="topnav" id="myTopnav">
+  <a href="https://muckmc.com/">Home</a>
+  <a href="https://muckmc.com/map.html">Maps</a>
+  <a href="https://muckmc.com/rules.html">Rules</a>
+  <a href="https://muckmc.com/about.html">About</a>
+  <a href="https://muckmc.com/gallery.html" class="active">gallery</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  	<i class="fa fa-bars"></i>
+  </a>
+	</div>
+
+	<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+	<div class="all">
+		
+		<div>
+<div class="slideshow-container">
+
+<div class="slideshow-mySlides slideshow-fade">
+  <div class="slideshow-numbertext">1 / 10</div>
+  <img src="slideshow/C-1.png" style="width:100%" class="slideshow-media">
+  <div class="slideshow-text">Season3</div>
+</div>
+
+<div class="slideshow-mySlides slideshow-fade">
+  <div class="slideshow-numbertext">2 / 10</div>
+  <img src="slideshow/C-2.png" style="width:100%" class="slideshow-media">
+  <div class="slideshow-text">Season3</div>
+</div>
+
+<div class="slideshow-mySlides slideshow-fade">
+  <div class="slideshow-numbertext">3 / 10</div>
+  <img src="slideshow/C-3.png" style="width:100%" class="slideshow-media">
+  <div class="slideshow-text">Season3</div>
+</div>
+
+<div class="slideshow-mySlides slideshow-fade">
+  <div class="slideshow-numbertext">4 / 10</div>
+  <img src="slideshow/C-4.png" style="width:100%" class="slideshow-media">
+  <div class="slideshow-text">Season3</div>
+</div>
+
+<div class="slideshow-mySlides slideshow-fade">
+  <div class="slideshow-numbertext">5 / 10</div>
+  <img src="slideshow/C-5.png" style="width:100%" class="slideshow-media">
+  <div class="slideshow-text">Season3</div>
+</div>
+
+<div class="slideshow-mySlides slideshow-fade">
+  <div class="slideshow-numbertext">6 / 10</div>
+  <img src="slideshow/S1-1.jpg" style="width:100%" class="slideshow-media">
+  <div class="slideshow-text">Season1</div>
+</div>
+
+<div class="slideshow-mySlides slideshow-fade">
+  <div class="slideshow-numbertext">7 / 10</div>
+  <img src="slideshow/S1-2.jpg" style="width:100%" class="slideshow-media">
+  <div class="slideshow-text">Season1</div>
+</div>
+
+<div class="slideshow-mySlides slideshow-fade">
+  <div class="slideshow-numbertext">8 / 10</div>
+  <img src="slideshow/S1-3.jpg" style="width:100%" class="slideshow-media">
+  <div class="slideshow-text">Season1</div>
+</div>
+
+<div class="slideshow-mySlides slideshow-fade">
+  <div class="slideshow-numbertext">9 / 10</div>
+  <img src="slideshow/S1-4.jpg" style="width:100%" class="slideshow-media">
+  <div class="slideshow-text">Season1</div>
+</div>
+	
+<div class="slideshow-mySlides slideshow-fade">
+  <div class="slideshow-numbertext">10 / 10</div>
+  <img src="slideshow/S1-5.jpg" style="width:100%" class="slideshow-media">
+  <div class="slideshow-text">Season1</div>
+</div>
+
+</div>
+
+<div style="text-align:center">
+  <span class="slideshow-dot"></span> 
+  <span class="slideshow-dot"></span> 
+  <span class="slideshow-dot"></span>
+  <span class="slideshow-dot"></span>
+  <span class="slideshow-dot"></span>
+  <span class="slideshow-dot"></span>
+  <span class="slideshow-dot"></span>
+  <span class="slideshow-dot"></span>
+  <span class="slideshow-dot"></span>
+  <span class="slideshow-dot"></span>
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("slideshow-mySlides");
+  let dots = document.getElementsByClassName("slideshow-dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</div>
+		
+		<div>
+		<div class="break50"></div>
+		<div class="break-line"></div>
+		<h1> Gallery </h1>
+		<div class="break25"></div>
+			
+		<div>
+			<div class="gallery">
+				<img src="slideshow/C-1.png" alt="Muck-mc creative image" width="600" height="400">
+			  <div class="desc">Muck-mc creative</div>
+			</div>
+
+			<div class="gallery">
+				<img src="slideshow/C-2.png" alt="Muck-mc creative image" width="600" height="400">
+			  <div class="desc">Muck-mc creative</div>
+			</div>
+
+			<div class="gallery">
+				<img src="slideshow/C-3.png" alt="Muck-mc creative image" width="600" height="400">
+			  <div class="desc">Muck-mc creative</div>
+			</div>
+
+			<div class="gallery">
+				<img src="slideshow/C-4.png" alt="Muck-mc creative image" width="600" height="400">
+			  <div class="desc">Muck-mc creative</div>
+			</div>
+			
+			<div class="gallery">
+				<img src="slideshow/C-5.png" alt="Muck-mc creative image" width="600" height="400">
+			  <div class="desc">Muck-mc creative</div>
+			</div>
+			
+			<div class="gallery">
+				<img src="slideshow/S1-1.jpg" alt="Muck-mc season 1 image" width="600" height="400">
+			  <div class="desc">Muck-mc Season 1</div>
+			</div>
+			
+			<div class="gallery">
+				<img src="slideshow/S1-2.jpg" alt="Muck-mc season 1 image" width="600" height="400">
+			  <div class="desc">Muck-mc Season 1</div>
+			</div>
+			
+			<div class="gallery">
+				<img src="slideshow/S1-3.jpg" alt="Muck-mc season 1 image" width="600" height="400">
+			  <div class="desc">Muck-mc Season 1</div>
+			</div>
+			
+			<div class="gallery">
+				<img src="slideshow/S1-4.jpg" alt="Muck-mc season 1 image" width="600" height="400">
+			  <div class="desc">Muck-mc Season 1</div>
+			</div>
+			
+			<div class="gallery">
+				<img src="slideshow/S1-5.jpg" alt="Muck-mc season 1 image" width="600" height="400">
+			  <div class="desc">Muck-mc Season 1</div>
+			</div>
+			
+			</div>
+		</div>
+		<div>
+			<a href="https://forms.gle/4N6zVHEcmx4pJv8H7" class="button button-black right" >Submit image google Form</a>
+		</div>
+	
+		</div>
+	
+	<div class="footer">
+		<div class="footer-content">
+    <h3>Muckmc.com</h3>
+	<p>Made by the team at muck mc.</p>
+	<p>contact us at: muckmc@muckmc.com</p>
+			
+			 <ul class="socials">
+	<a href="https://discord.gg/rTTbeJ6Rpy"><i class="fab fa-discord fa-3x" style="color: #FFFFFF;"></i></a>
+ </ul>
+			<ul>
+				<a href="index.html" >Home</a>
+				<a href="rules.html" >Rules</a>
+				<a href="sitemap.html" >Site map</a>
+				<a href="privacy_policy.html" >Privacy policy</a>
+			</ul>
+
+</div>
+	</div>
+</body>
+</html>
